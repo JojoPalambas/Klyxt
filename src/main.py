@@ -1,3 +1,3 @@
-import Game
+import game
 
-Game.play()
+game.play()

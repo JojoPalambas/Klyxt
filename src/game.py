@@ -1,5 +1,6 @@
 import interface
+import file_reader
 
 
 def play():
-    print(interface.ask_discrete("Êtes-vous :", [["1", "Jeune"], ["2", "Normal"], ["3", "Vieux"]]))
+    print(file_reader.story_blocks_from_file("Stories/story"))
