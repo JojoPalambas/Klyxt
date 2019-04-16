@@ -1,4 +1,4 @@
 import Interface
 
 def play():
-    Interface.story("Allons-y, dit le lièvre !#1#À la une...#1#À la deux...#2#À la trois !#Et le lièvre partit.##Fin")
+    print(Interface.ask_discrete("Êtes-vous :", [["1", "Jeune"], ["2", "Normal"], ["3", "Vieux"]]))
